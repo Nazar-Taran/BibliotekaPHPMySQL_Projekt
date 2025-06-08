@@ -6,7 +6,6 @@ Technologie
 - PHP (bez frameworka)
 - MySQL
 - HTML, CSS
-- Bootstrap 5
 
 Funkcje
 - Przeglądanie listy książek
