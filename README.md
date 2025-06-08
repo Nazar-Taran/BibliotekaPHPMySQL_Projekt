@@ -30,7 +30,7 @@ Instalacja
 
 Struktura katalogów
 
-
+```
 BibliotekaPHPMySQL/
 ├── config/
 ├── controllers/
@@ -40,9 +40,9 @@ BibliotekaPHPMySQL/
 ├── database.sql
 ├── insert_data.sql
 └── README.md
-
+```
  Struktura bazy danych
-
+```
 sql
 CREATE TABLE books (
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -51,8 +51,9 @@ CREATE TABLE books (
     genre VARCHAR(100),
     year INT
 );
+```
 
-
-Autor 
+Autor:
+ 
 Nazar Taran 52997 AI1
 
