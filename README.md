@@ -1,21 +1,20 @@
-# 📚 BibliotekaPHPMySQL
+BibliotekaPHPMySQL
 
-Prosty system zarządzania książkami w bibliotece oparty na PHP i MySQL.
+Prosty system zarządzania książkami 
 
-## 🧰 Technologie
+Technologie
 - PHP (bez frameworka)
 - MySQL
 - HTML, CSS
 - Bootstrap 5
 
-## 📦 Funkcje
+Funkcje
 - Przeglądanie listy książek
 - Dodawanie nowych książek
-- Edytowanie informacji o książkach
 - Usuwanie książek
 - Filtrowanie według autora i gatunku
 
-## 🔧 Instalacja
+Instalacja
 1. Sklonuj repozytorium lub rozpakuj ZIP:
    ```
    git clone https://github.com/twoj-login/BibliotekaPHPMySQL.git
@@ -29,9 +28,9 @@ Prosty system zarządzania książkami w bibliotece oparty na PHP i MySQL.
 
 4. Uruchom projekt na lokalnym serwerze (XAMPP/MAMP) i otwórz `public/index.php` w przeglądarce.
 
-## 🗃️ Struktura katalogów
+Struktura katalogów
 
-```
+
 BibliotekaPHPMySQL/
 ├── config/
 ├── controllers/
@@ -41,11 +40,10 @@ BibliotekaPHPMySQL/
 ├── database.sql
 ├── insert_data.sql
 └── README.md
-```
 
-## 🗄️ Struktura bazy danych
+ Struktura bazy danych
 
-```sql
+sql
 CREATE TABLE books (
     id INT AUTO_INCREMENT PRIMARY KEY,
     title VARCHAR(255) NOT NULL,
@@ -53,8 +51,8 @@ CREATE TABLE books (
     genre VARCHAR(100),
     year INT
 );
-```
 
-## ✍️ Autor
-- Imię Nazwisko (Twoje)
-- Projekt stworzony na potrzeby nauki PHP/MySQL
+
+Autor 
+Nazar Taran 52997 AI1
+
